@@ -4,7 +4,8 @@
 
 public class Solution {
     static String reverseWords(String s) {
-		
+	    if(s==null)
+		  return null;
 	    String[] words = new String[s.length()];
 	    
 	    int count=0;
